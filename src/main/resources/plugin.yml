@@ -1,8 +1,12 @@
-name: UwULogs
+name: MHLogs
 version: '${project.version}'
-main: me.honkling.uwulogs.UwULogs
+main: com.azuyamat.mhlogs.MHLogs
 api-version: 1.13
-prefix: UwULogs
+prefix: MHLogs
 load: STARTUP
-authors: [ honkling ]
-description: A plugin that uwuifies all logged messages.
+authors: [ azuyamat ]
+description: Export your logs to mhlogs.com
+commands:
+  mhlogs:
+    description: Export your logs
+    permission: mhlogs.admin
