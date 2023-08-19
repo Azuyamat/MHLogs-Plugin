@@ -1,0 +1,12 @@
+name: MHLogs
+version: '1.0.0'
+main: com.azuyamat.mhlogs.MHLogs
+api-version: 1.13
+prefix: MHLogs
+load: STARTUP
+authors: [ azuyamat ]
+description: Export your logs to mhlogs.com
+commands:
+  mhlogs:
+    description: Export your logs
+    permission: mhlogs.admin
